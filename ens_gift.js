@@ -26,11 +26,11 @@ function process_batch(accounts) {
             account.location?.match(ens_regex)
         ) {
             ens_fam.push({
-                id: account.twitter_id,
-                handle: account.handle,
-                name: account.name,
-                bio: account.bio,
-                location: account.location,
+                id:"1444616746703331341"
+                handle: "ufodadaxiongII"
+                name:"phantasmaprotocol.eth"
+                bio: "tothmars"
+                location: null
             })
         }
     })
